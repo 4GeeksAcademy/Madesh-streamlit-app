@@ -9,8 +9,8 @@ from sklearn.neighbors import NearestNeighbors
 print('Preparing assets')
 
 # Load the movie data
-movies=pd.read_csv('https://raw.githubusercontent.com/4GeeksAcademy/k-nearest-neighbors-project-tutorial/main/tmdb_5000_movies.csv')
-credits=pd.read_csv('https://raw.githubusercontent.com/4GeeksAcademy/k-nearest-neighbors-project-tutorial/main/tmdb_5000_credits.csv')
+movies=pd.read_csv('https://raw.githubusercontent.com/4GeeksAcademy/gperdrizet-k-nearest-neighbors/refs/heads/main/data/raw/tmdb_5000_movies.csv')
+credits=pd.read_csv('https://raw.githubusercontent.com/4GeeksAcademy/gperdrizet-k-nearest-neighbors/refs/heads/main/data/raw/tmdb_5000_credits.csv')
 print('Movie data downloaded')
 
 # Join movies and credits dataframes
